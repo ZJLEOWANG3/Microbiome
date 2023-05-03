@@ -1,0 +1,27 @@
+Package: microbiomeSeq
+Title: Microbiome Analysis for 16S data
+Version: 0.1
+Authors@R: 
+    person("Zijian Leo", "Wang", email = "zjleowang3@gmail.com", role = c("aut","cre")
+Description: This project is to standardize the microbiome analysis pipeline for 16S data
+Depends: R (>= 3.2.3)
+Imports: igraph (>= 1.1.2),
+		 DESeq2 (>= 1.16.1),
+		 KMDA,
+		 vegan (>= 2.4),
+		 phyloseq (>= 1.14.0),
+		 WGCNA (>= 1.60),
+		 fso (>= 2.0),
+		 randomForest (>= 4.6),
+		 data.table (>= 1.10.4),
+		 reshape2 (>= 1.4.2),
+		 gtable (>= 0.2.0),
+		 ggplot2 (>= 2.2.1),
+		 gridExtra (>= 2.2.1)
+Suggests: R.rsp
+VignetteBuilder: R.rsp
+URL: 
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
